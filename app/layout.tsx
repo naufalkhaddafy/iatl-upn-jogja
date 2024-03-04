@@ -3,10 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { ThemeModeScript } from "flowbite-react";
-import NavbarLandingPage from "./components/LandingPage/NavbarLandingPage";
-import FooterLandingPage from "./components/LandingPage/FooterLandingPage";
-import ContainerLandingPage from "./components/LandingPage/ContainerLandingPage";
-import LandingPageLayout from "./components/Layout/LandingPageLayout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +22,7 @@ export default function RootLayout({
         <ThemeModeScript />
       </head>
       <body className={`${inter.className} antialiased dark:bg-gray-800`}>
-        <LandingPageLayout>{children}</LandingPageLayout>
+        {children}
       </body>
     </html>
   );

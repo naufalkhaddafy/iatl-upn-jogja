@@ -1,7 +1,7 @@
+import Carousel from "@/app/components/Carousel";
 import Image from "next/image";
 import Link from "next/link";
-import Carousel from "./components/Carousel";
-import LandingPageLayout from "./layout";
+
 export default function Home() {
   return (
     <main className="my-10 ">

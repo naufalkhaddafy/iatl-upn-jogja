@@ -1,6 +1,6 @@
-import NavbarLandingPage from "../LandingPage/NavbarLandingPage";
-import ContainerLandingPage from "../LandingPage/ContainerLandingPage";
-import FooterLandingPage from "../LandingPage/FooterLandingPage";
+import ContainerLandingPage from "../components/LandingPage/ContainerLandingPage";
+import FooterLandingPage from "../components/LandingPage/FooterLandingPage";
+import NavbarLandingPage from "../components/LandingPage/NavbarLandingPage";
 
 export default function LandingPageLayout({
   children,

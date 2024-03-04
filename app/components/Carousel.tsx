@@ -10,6 +10,7 @@ export default function Carousel() {
         </h1>
         <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
           Universitas Pembangunan Nasional "Veteran" Yogyakarta
+          {/* Test */}
         </p>
       </div>
     </section>
